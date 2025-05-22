@@ -22,26 +22,31 @@ class _AuthPageState extends State<AuthPage> {
             ),
           ),
           Center(
-            child: SizedBox(
-              
-              width: MediaQuery.of(context).size.width - 100,
-              child: ElevatedButton(
-                onPressed: () {},
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(
-                      "LOGIN",
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontFamily: 'mytwo',
-                        fontSize: 20,
-                      ),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                SizedBox(
+                  width: MediaQuery.of(context).size.width - 100,
+                  child: ElevatedButton(
+                    style: ButtonStyle(),
+                    onPressed: () {},
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+                      children: [
+                        Text(
+                          "Login",
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontFamily: 'mytwo',
+                            fontSize: 20,
+                          ),
+                        ),
+                        Icon(Icons.login, color: Colors.black),
+                      ],
                     ),
-                    Icon(Icons.login, color: Colors.white),
-                  ],
+                  ),
                 ),
-              ),
+              ],
             ),
           ),
         ],

@@ -16,16 +16,7 @@ class MyApp extends StatelessWidget {
       DeviceOrientation.portraitDown,
     ]);
     return MaterialApp(
-      title: 'Swifty Companion',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFFF7941D),
-          primary: const Color(0xFFF7941D),
-        ),
-        useMaterial3: true,
-        fontFamily: 'mytwo',
-      ),
       home: const AuthPage(),
     );
   }
