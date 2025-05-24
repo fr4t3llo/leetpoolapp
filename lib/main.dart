@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:leetpoolapp/api/auth.dart';
 import 'package:leetpoolapp/profile.dart';
 
 void main() {
@@ -16,8 +17,6 @@ class MyApp extends StatelessWidget {
 
       DeviceOrientation.portraitDown,
     ]);
-    return MaterialApp(debugShowCheckedModeBanner: false, home: ProfilePage());
+    return MaterialApp(debugShowCheckedModeBanner: false, home: AuthPage());
   }
 }
-
-
