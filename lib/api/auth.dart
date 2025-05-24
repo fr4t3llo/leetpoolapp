@@ -44,6 +44,7 @@ class _AuthPageState extends State<AuthPage> {
                         Icon(Icons.login, color: Colors.black),
                       ],
                     ),
+                    
                   ),
                 ),
                 
