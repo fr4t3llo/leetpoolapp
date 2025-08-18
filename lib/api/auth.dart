@@ -23,7 +23,6 @@ class _AuthPageState extends State<AuthPage> {
           ),
           Center(
 
-            
             child: Column(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
